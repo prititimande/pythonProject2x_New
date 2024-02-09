@@ -1,19 +1,24 @@
 # Strings
-# Bunch of char
+# Bunch of Char
 # "" or ''
-name1 = "Priti"
-name2 = 'Priti'
-print(name1)
+name = "Pramod"
+name2 = 'Pramod'
+print(name)
 print(name2)
-print(type(name1))
+print(type(name))
 print(type(name2))
 
-# raw string
-# This will be useful in dir path
-dir = "C:\\abc\\abc.txt"
+# raw String
+# This will be helpful in the dir paths
+dir = r'C:\nomedir\aome dir'
 print(dir)
 
-# Format String
+
+# format String
 first_name = "Amit"
+last_name = "Mishra"
+age = 34
+isMarried = False
+print(f'Your name is {first_name} {last_name}, you age is {age} and you are {isMarried} ')
 last_name = "Mishra"
 print(f"Your Name is {first_name} {last_name}")
